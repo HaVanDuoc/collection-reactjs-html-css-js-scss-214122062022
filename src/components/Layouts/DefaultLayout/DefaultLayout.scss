@@ -1,0 +1,23 @@
+#hvd-default-layout {
+    width: 100%;
+    min-height: 100vh;
+
+    .hvd-content-layout {
+        width: 1200px;
+        margin: 0 auto;
+        padding-top: 90px;
+        display: flex;
+    }
+
+    .hvd-sidebar {
+        flex: 1;
+    }
+
+    .hvd-feed {
+        flex: 3;
+    }
+
+    .hvd-rightbar {
+        flex: 1.5;
+    }
+}
