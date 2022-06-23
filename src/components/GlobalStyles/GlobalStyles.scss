@@ -1,4 +1,11 @@
-:root {}
+// Roboto Font
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root {
+    --main-color: #1e90ff;
+    --main-font-color: #8592a3;
+    --body-background-color: #f5f6fb;
+}
 
 * {
     margin: 0;
@@ -13,6 +20,20 @@ html {
 body {
     color: #000;
     font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.5;
     text-rendering: optimizeSpeed;
+    background-color: var(--body-background-color);
+}
+
+.hvd-wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+input {
+    border: none;
+    outline: none;
 }

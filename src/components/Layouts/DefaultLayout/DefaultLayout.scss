@@ -3,7 +3,7 @@
     min-height: 100vh;
 
     .hvd-content-layout {
-        width: 1200px;
+        // width: 1200px;
         margin: 0 auto;
         padding-top: 90px;
         display: flex;
@@ -14,10 +14,10 @@
     }
 
     .hvd-feed {
-        flex: 3;
+        flex: 2;
     }
 
     .hvd-rightbar {
-        flex: 1.5;
+        flex: 1;
     }
 }
